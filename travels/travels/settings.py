@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-u!x%7#q!+b$8$(vma2bxw#*b!*@2w!c$n$3w_9ok8-1jp_)_3h'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -65,9 +65,9 @@ MIDDLEWARE = [
 ]
 
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5174",
-]
+# CORS_ALLOWED_ORIGINS = [
+#     "http://localhost:5174",
+# ]
 
 
 CORS_ALLOW_ALL_ORIGINS = True
@@ -78,7 +78,7 @@ CORS_ALLOW_CREDENTIALS = True
 ROOT_URLCONF = 'travels.urls'
 
 
-ROOT_URLCONF = 'travels.urls'
+
 
 TEMPLATES = [
     {
